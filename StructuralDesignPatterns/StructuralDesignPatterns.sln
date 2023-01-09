@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{A5FA23E9-D6E2-4DD4-BF41-DC32EF160EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{DA10B91B-4D47-4375-A102-F47D02CF45C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{5D00CAFB-09D1-4ECB-9220-CBA32523BF3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5FA23E9-D6E2-4DD4-BF41-DC32EF160EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FA23E9-D6E2-4DD4-BF41-DC32EF160EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FA23E9-D6E2-4DD4-BF41-DC32EF160EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FA23E9-D6E2-4DD4-BF41-DC32EF160EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA10B91B-4D47-4375-A102-F47D02CF45C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA10B91B-4D47-4375-A102-F47D02CF45C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA10B91B-4D47-4375-A102-F47D02CF45C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA10B91B-4D47-4375-A102-F47D02CF45C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D00CAFB-09D1-4ECB-9220-CBA32523BF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D00CAFB-09D1-4ECB-9220-CBA32523BF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D00CAFB-09D1-4ECB-9220-CBA32523BF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D00CAFB-09D1-4ECB-9220-CBA32523BF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A74A035-7DB9-42A1-9F20-809F2394D1FA}
+	EndGlobalSection
+EndGlobal
