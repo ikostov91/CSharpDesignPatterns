@@ -7,13 +7,15 @@ namespace AdapterPattern
     {
         static void Main(string[] args)
         {
-            Adaptee adaptee = new();
-            ITarget target = new Adapter(adaptee);
+            JsonCompatibleClass adaptee = new();
+            ITarget target = new XmlToJsonAdapter(adaptee);
 
-            Console.WriteLine("Adaptee interface is incompatible with the client.");
-            Console.WriteLine("But with adapter client can call it's method.");
+            Console.WriteLine("JsonCompatibleClass is incompatible with the client code.");
+            Console.WriteLine("But with the XmlToJsonAdapter, the client can call it's method.");
 
-            Console.WriteLine(target.GetRequest());
+            string xmlInput = "<xml>Input</xml>";
+            Console.WriteLine(xmlInput);
+            Console.WriteLine(target.Request(xmlInput));
         }
     }
 }

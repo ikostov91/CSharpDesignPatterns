@@ -11,9 +11,9 @@ namespace Bridge.Entities.Abstractions
             _implementation = implementation;
         }
 
-        public virtual string Operation()
+        public virtual string ShapeMethod()
         {
-            return "Abstract: Shape with " + _implementation.OperationImplementation();
+            return "Abstract: Shape with " + _implementation.ConcreteImplementationMethod();
         }
     }
 }

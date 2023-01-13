@@ -6,11 +6,13 @@ namespace FacadePattern
     {
         static void Main(string[] args)
         {
-            SubsystemOne subsystem1 = new SubsystemOne();
-            SubsystemTwo subsystem2 = new SubsystemTwo();
-            Facade facade = new(subsystem1, subsystem2);
+            MPEG4CompressionCodec mpeg4CompressionCodec = new();
+            CodecFactory codecFactory = new();
+
+            // Facade class
+            VideoConverter videoConverter = new(mpeg4CompressionCodec, codecFactory);
             
-            Console.WriteLine(facade.Operation());
+            Console.WriteLine(videoConverter.Convert("gameplay.ogg", "mp4"));
         }
     }
 }

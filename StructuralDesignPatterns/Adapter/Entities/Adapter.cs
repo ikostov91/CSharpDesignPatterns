@@ -2,18 +2,19 @@
 
 namespace AdapterPattern.Entities
 {
-    internal class Adapter : ITarget
+    internal class XmlToJsonAdapter : ITarget
     {
-        private readonly Adaptee _adaptee;
+        private readonly JsonCompatibleClass _adaptee;
 
-        public Adapter(Adaptee adaptee)
+        public XmlToJsonAdapter(JsonCompatibleClass adaptee)
         {
             this._adaptee = adaptee;
         }
 
-        public string GetRequest()
+        public string Request(string xml)
         {
-            return $"This is '{this._adaptee.GetSpecificRequest()}'";
+            string convertedToJson = "{ Input: {} }";
+            return $"Convert XML to JSON and pass to adaptee: '{this._adaptee.JsonInputMethod(convertedToJson)}'.";
         }
     }
 }

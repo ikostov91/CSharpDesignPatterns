@@ -4,7 +4,7 @@ namespace Bridge.Entities.Implementations
 {
     internal class RedCircle : IImplementation
     {
-        public string OperationImplementation()
+        public string ConcreteImplementationMethod()
         {
             return "Concrete Implementation: Red Circle";
         }

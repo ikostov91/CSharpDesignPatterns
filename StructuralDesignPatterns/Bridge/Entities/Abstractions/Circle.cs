@@ -9,9 +9,9 @@ namespace Bridge.Entities.Abstractions
         {
         }
 
-        public override string Operation()
+        public override string ShapeMethod()
         {
-            return "Extended Abstraction: Circle with " + _implementation.OperationImplementation();
+            return "Extended Abstraction: Circle with " + _implementation.ConcreteImplementationMethod();
         }
     }
 }

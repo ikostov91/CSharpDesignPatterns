@@ -10,10 +10,10 @@ namespace Bridge
             Shape abstraction;
 
             abstraction = new Shape(new BlueCircle());
-            Console.WriteLine(abstraction.Operation());
+            Console.WriteLine(abstraction.ShapeMethod());
 
             abstraction = new Square(new RedSquare());
-            Console.WriteLine(abstraction.Operation());
+            Console.WriteLine(abstraction.ShapeMethod());
         }
     }
 }

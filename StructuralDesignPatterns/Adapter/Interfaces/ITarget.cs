@@ -2,6 +2,6 @@
 {
     internal interface ITarget
     {
-        string GetRequest();
+        string Request(string input);
     }
 }
