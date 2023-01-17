@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{32748561-82F3-4BB5-BCF9-C97401B95D48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{92A7B0E8-2AAC-4148-9765-A6DA5882234A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{92A7B0E8-2AAC-4148-9765-A6DA5882234A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{4629A453-B323-4117-9395-B3AEF2FFBDDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{92A7B0E8-2AAC-4148-9765-A6DA5882234A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92A7B0E8-2AAC-4148-9765-A6DA5882234A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92A7B0E8-2AAC-4148-9765-A6DA5882234A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4629A453-B323-4117-9395-B3AEF2FFBDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4629A453-B323-4117-9395-B3AEF2FFBDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4629A453-B323-4117-9395-B3AEF2FFBDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4629A453-B323-4117-9395-B3AEF2FFBDDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
