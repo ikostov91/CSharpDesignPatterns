@@ -7,7 +7,7 @@ namespace CompositePattern
     {
         static void Main(string[] args)
         {
-            Product product = new Product("Console", 700);
+            Product product = new("Console", 700);
             Client.ClientCode(product);
 
             Box boxOne = new();
